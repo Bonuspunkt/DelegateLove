@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5AA851D0-A165-4848-B162-1A142F3C8C99}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateLove.Mock", "DelegateLove.Mock\DelegateLove.Mock.csproj", "{563A6C80-E7CF-4678-ACF8-0246D066160C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateLove.Mock.Generator", "DelegateLove.Mock.Generator\DelegateLove.Mock.Generator.csproj", "{3A641F53-6AF2-4E3C-9041-E76BB2E16D8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateLove.Mock.Generator.Test", "DelegateLove.Mock.Generator.Test\DelegateLove.Mock.Generator.Test.csproj", "{14F34D84-A1B1-4902-8888-29BB7230C716}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateLove.Mock.Integration", "DelegateLove.Mock.Integration\DelegateLove.Mock.Integration.csproj", "{2ACEBBC9-1BF3-411E-BC60-F4BC5CAEC311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{563A6C80-E7CF-4678-ACF8-0246D066160C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563A6C80-E7CF-4678-ACF8-0246D066160C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563A6C80-E7CF-4678-ACF8-0246D066160C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563A6C80-E7CF-4678-ACF8-0246D066160C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A641F53-6AF2-4E3C-9041-E76BB2E16D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A641F53-6AF2-4E3C-9041-E76BB2E16D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A641F53-6AF2-4E3C-9041-E76BB2E16D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A641F53-6AF2-4E3C-9041-E76BB2E16D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F34D84-A1B1-4902-8888-29BB7230C716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F34D84-A1B1-4902-8888-29BB7230C716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F34D84-A1B1-4902-8888-29BB7230C716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F34D84-A1B1-4902-8888-29BB7230C716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACEBBC9-1BF3-411E-BC60-F4BC5CAEC311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACEBBC9-1BF3-411E-BC60-F4BC5CAEC311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACEBBC9-1BF3-411E-BC60-F4BC5CAEC311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACEBBC9-1BF3-411E-BC60-F4BC5CAEC311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2430F4D-E0BD-4C90-82F4-486F72AD2473}
+	EndGlobalSection
+EndGlobal
